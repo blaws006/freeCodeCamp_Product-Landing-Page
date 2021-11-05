@@ -26,9 +26,36 @@
         justify-content: space-evenly;
         padding: 0 10px;
     }
+    #header + main {
+        padding-top: 60px;
+    }
+    main { margin-top: 100px;}
+    
     #intro {
         display: flex;
         flex-direction: column;
-        padding: 0;
+        padding: 0 100px;
+    }
+    
+    #video {
+        width: 560px;
+        height: 315px;
+    }
+    
+    #events {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    
+    .friday, .saturday, .sunday {
+        
+        max-width: 30%;
+        border-radius: 3px;
+        border: 1px solid black;
+        
     }
 }
+
+
